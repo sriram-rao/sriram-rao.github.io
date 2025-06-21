@@ -18,6 +18,8 @@ Thumbs.db
 .env.*
 !.env.example
 !.env.test
+.nvim_silencio.json
+.npmrc
 
 # Vite
 vite.config.js.timestamp-*
