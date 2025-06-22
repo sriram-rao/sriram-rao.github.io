@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
 @import "tailwindcss";
-@plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 @plugin "daisyui" {
   themes:
@@ -10,4 +9,20 @@
 
 @theme {
   --font-sans: "Geist", sans-serif;
+}
+
+.color-main {
+  @apply text-black dark:text-white;
+}
+
+.color-prominent {
+  @apply text-gray-800 dark:text-gray-200;
+}
+
+.color-subhead {
+  @apply text-slate-600 dark:text-slate-400;
+}
+
+.color-content {
+  @apply text-gray-600 dark:text-gray-400;
 }
