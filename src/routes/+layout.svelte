@@ -2,6 +2,7 @@
   import "../app.css";
   import Experience from "./experience.svelte";
   import Skills from "./skills.svelte";
+  import Projects from "./projects.svelte";
   let { children } = $props();
 </script>
 
@@ -12,6 +13,8 @@
   >
     <div class="m-10"></div>
     {@render children()}
+    <div class="m-15"></div>
+    <Projects />
     <div class="m-15"></div>
     <Experience />
     <div class="m-10"></div>
