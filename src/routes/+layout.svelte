@@ -6,8 +6,8 @@
   let { children } = $props();
 </script>
 
-<div class="flex flex-row">
-  <ul class="menu menu-horizontal rounded-box sticky z-50 bg-base-100">
+<div class="flex flex-row sticky top-0 z-50 bg-base-100">
+  <ul class="menu menu-horizontal rounded-box">
     <li><a href="#">Home</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#skills">Skills</a></li>
