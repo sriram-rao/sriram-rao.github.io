@@ -11,8 +11,9 @@
         >
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
+              src="rush.png"
+              class="h-40 object-cover bg-white"
+              alt="Workflow engine"
             />
           </figure>
           <div class="card-body">
@@ -33,8 +34,10 @@
         >
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
+              id="ref-img"
+              class="h-40"
+              src="fmc_architecture.png"
+              alt="Simulation Driver"
             />
           </figure>
           <div class="card-body">

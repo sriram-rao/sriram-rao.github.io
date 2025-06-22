@@ -8,7 +8,7 @@
     class="mb-8 antialiased p-4 w-xl border border-gray-200 dark:border-gray-700 rounded-xl"
   >
     <span class="flex justify-between color-prominent">
-      <span class="text-md">{exp.position}</span>
+      <span class="text-base">{exp.position}</span>
       <span class="text-sm">
         {exp.company}
       </span>
@@ -26,7 +26,7 @@
 
 <div class="flex items-center m-8">
   <div class="box-border">
-    <p class="mb-5 text-md prose color-prominent">Work Experience</p>
+    <p class="mb-5 text-base prose color-prominent">Work Experience</p>
     <p class="mb-5 text-sm color-content">Industry</p>
     {#each data.industryExperience as experience}
       {@render work(experience)}

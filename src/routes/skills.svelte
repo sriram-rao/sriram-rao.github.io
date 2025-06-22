@@ -1,6 +1,6 @@
 <div class="flex items-center m-8">
   <div class="box-border">
-    <span class="text-md prose color-prominent">Skills </span>
+    <span class="text-base prose color-prominent">Skills </span>
     <span class="text-sm">
       <p class="color-prominent">Programming Languages</p>
       <ul class="list-disc list-outside color-content">
