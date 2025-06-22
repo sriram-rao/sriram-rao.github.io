@@ -3,7 +3,7 @@ export type Experience = {
   position: string;
   start: string;
   end: string;
-  suummary?: string;
+  summary?: string;
   description: string[];
 };
 
@@ -12,7 +12,7 @@ export const industryExperience: Experience[] = [
     company: "Dremio",
     position: "Software Engineer - PhD Intern",
     start: "Jun 2022",
-    end: "Jun 2022",
+    end: "Sep 2022",
     summary: "Data lake query performance gain through better statistics",
     description: [],
   },

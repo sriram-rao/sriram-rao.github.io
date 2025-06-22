@@ -1,9 +1,9 @@
-<div class="flex items-center m-8">
+<div class="flex flex-row place-content-center items-center m-8">
   <div class="box-border">
-    <p class="text-md color-prominent">Selected Projects</p>
+    <p class="text-base color-prominent">Selected Projects</p>
 
-    <div class="flex flex-wrap justify-between gap-5 mt-5 mr-15">
-      <div class="card bg-base-100 w-2/5 shadow-sm">
+    <div class="flex flex-wrap justify-between gap-5 mt-5">
+      <div class="card bg-base-100 md:w-2/5 shadow-sm">
         <a
           href="https://www.github.com/sriram-rao/rush/"
           target="_blank"
@@ -26,7 +26,7 @@
         </a>
       </div>
 
-      <div class="card bg-base-100 w-2/5 shadow-sm">
+      <div class="card bg-base-100 md:w-2/5 shadow-sm">
         <a
           href="https://github.com/ucisharadlab/simulation_driver"
           target="_blank"
