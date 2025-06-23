@@ -11,7 +11,11 @@
   </div>
 
   <span class="flex place-content-center justify-between md:gap-5">
-    <LinkTo text="Email" href="mailto:reach@sriramrao.com" style="btn-accent" />
+    <LinkTo
+      text="Email"
+      href="mailto:reach@sriramrao.com"
+      style="btn-secondary"
+    />
     <LinkTo
       text="LinkedIn"
       href="https://www.linkedin.com/in/sriram-rao"
@@ -24,10 +28,6 @@
       style="btn-default"
     />
 
-    <LinkTo
-      text="Full résumé"
-      href="/Sriram_Rao_Resume.pdf"
-      style="btn-default"
-    />
+    <LinkTo text="Résumé" href="/Sriram_Rao_Resume.pdf" style="btn-error" />
   </span>
 </div>
