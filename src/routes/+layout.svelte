@@ -18,7 +18,7 @@
     <div class="m-15"></div>
     <Projects />
     <span id="experience"></span>
-    <div class="m-15"></div>
+    <div class="m-20"></div>
     <Experience />
     <span id="skills"></span>
     <div class="m-10"></div>
