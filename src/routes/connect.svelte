@@ -23,5 +23,11 @@
       href="https://www.github.com/sriram-rao/"
       style="btn-default"
     />
+
+    <LinkTo
+      text="Full résumé"
+      href="/Sriram_Rao_Resume.pdf"
+      style="btn-default"
+    />
   </span>
 </div>
