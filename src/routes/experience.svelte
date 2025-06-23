@@ -1,6 +1,6 @@
 <script lang="ts">
   import * as data from "$lib/data";
-  import type { experience } from "$lib/data";
+  import type { Experience } from "$lib/data";
 </script>
 
 {#snippet work(exp: Experience)}
