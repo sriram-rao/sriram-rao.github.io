@@ -51,7 +51,7 @@ As the next step, I worked on making the app prettier and more reliable.
 Simultaneously, I spent time reading up on Swift's features and conventions so I could prettify my code along with the app.
 I felt Xcode’s predictions and ChatGPT made it hard to learn, so I didn't specifically seek their help.
 
-<img src="/cards_dark.png" alt="Dark mode image of my diary card app" class="crop-bottom crop-left" />
+<img src="/cards_dark.png" alt="Dark mode image of my diary card app" class="crop-bottom" />
 
 ### Built an app
 

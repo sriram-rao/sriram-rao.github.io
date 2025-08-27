@@ -52,8 +52,8 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap justify-center gap-5 mt-5">
-      <div class="card bg-base-100 md:w-4/7 shadow-md dark:shadow-neutral">
+    <div class="flex flex-wrap justify-between gap-5 mt-5">
+      <div class="card bg-base-100 md:w-3/7 shadow-md dark:shadow-neutral">
         <div class="card-body">
           <a class="link link-neutral color-prominent" href="#"
             >www.sriramrao.com</a
@@ -62,6 +62,36 @@
             Personal site built with Svelte and TypeScript. Designed for
             minimalism, speed, and full control over layout, animations, and
             content.
+          </p>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 md:w-3/7 shadow-md dark:shadow-neutral">
+        <a
+          href="https://github.com/sriram-rao/diarycard"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <figure>
+            <img
+              id="ref-img"
+              src="cards_dark.png"
+              alt="Mood Journal App"
+              style="object-fit: cover; object-position: top; width: 300px; height: 200px;"
+            />
+          </figure>
+        </a>
+        <div class="card-body">
+          <p class="text-sm color-prominent">
+            <span>Diary Card</span>
+            <a href="/blog/diarycard" class="link text-xs color-content"
+              >(Read why I built this)</a
+            >
+          </p>
+
+          <p class="text-sm color-content">
+            An iOS app to log my daily mood measures, tailor-made to my specific
+            use cases, behaviour and preferences.
           </p>
         </div>
       </div>
