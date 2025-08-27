@@ -1,7 +1,17 @@
 <script lang="ts">
   // This script block is intentionally left empty as no specific logic is needed for this component.
   let skills = {
-    Languages: ["Python", "C#", "Java", "C++", "C", "Ruby", "Lisp", "Prolog"],
+    "Core Languages": [
+      "Python",
+      "C#",
+      "Java",
+      "C++",
+      "C",
+      "Ruby",
+      "Lisp",
+      "Prolog",
+    ],
+
     Databases: [
       "Big Data",
       "SQL",
@@ -58,8 +68,10 @@
       {#each Object.entries(skills) as [skill, languages]}
         <div class="card shadow-md dark:shadow-neutral">
           <div class="card-body">
-            <span class="text-sm color-prominent"> {skill} </span>
-            <span class="flex flex-wrap gap-1">
+            <span class="text-sm text-center color-prominent">
+              {skill}
+            </span>
+            <span class="flex flex-wrap gap-1 justify-center">
               {#each languages as language}
                 <span
                   class="badge badge-ghost dark:bg-[#2f3640] text-base-content"

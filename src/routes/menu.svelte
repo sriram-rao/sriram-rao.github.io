@@ -10,6 +10,9 @@
       <li><a href="#experience">Experience</a></li>
       <li><a href="#skills">Skills</a></li>
       <li>
+        <a href="/blog" class="text-success">Blog</a>
+      </li>
+      <li>
         <LinkTo
           text="LinkedIn"
           href="https://www.linkedin.com/in/sriram-rao/"
@@ -22,9 +25,12 @@
 
   <div class="hidden md:flex bg-base-100 w-full">
     <ul class="menu md:menu-horizontal rounded-box bg-base-100">
-      <li><a href="#">Home</a></li>
+      <li><a href="/">Home</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li>
+        <a href="/blog" class="text-success">Blog</a>
+      </li>
       <li>
         <LinkTo
           text="LinkedIn"
