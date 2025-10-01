@@ -9,6 +9,19 @@ export type Experience = {
 
 export const industryExperience: Experience[] = [
   {
+    company: "University of California, Irvine",
+    position: "Graduate Researcher",
+    start: "Sep 2020",
+    end: "Sep 2024",
+    summary: "Data management and distributed systems",
+    description: [
+      "Designed database plugin; balances latency and resource costs by allocating compute between current and decision-tree-forecast loads.",
+      "Developed framework to call data generators implicitly during analysis.",
+      "Integrated simulator into PostgreSQL for no-setup follow-up.",
+      "Created a pipeline execution system for workflows defined as directed acyclic graphs of tasks. (On GitHub as sample.)",
+    ],
+  },
+  {
     company: "Dremio",
     position: "Software Engineer - PhD Intern",
     start: "Jun 2022",
@@ -42,14 +55,6 @@ export const industryExperience: Experience[] = [
 ];
 
 export const researchExperience: Experience[] = [
-  {
-    company: "University of California, Irvine",
-    position: "Graduate Researcher",
-    start: "Sep 2020",
-    end: "Sep 2024",
-    summary: "Data management and distributed systems",
-    description: [],
-  },
   {
     company: "University of California, Irvine",
     position: "Teaching Assistant",
