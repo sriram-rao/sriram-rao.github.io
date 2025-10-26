@@ -11,6 +11,7 @@
       "Ruby",
       "Lisp",
       "Prolog",
+      "SQL",
     ],
 
     Databases: [
@@ -24,6 +25,8 @@
       "PostgreSQL",
       "Column stores",
       "Iceberg",
+      "InfluxDB",
+      "Trino",
     ],
     "Compute Platforms": [
       "Spark",
@@ -33,6 +36,10 @@
       "ETL",
       "Query Engines",
       "Calcite",
+      "Spark SQL",
+      "Apache Calcite",
+      "Distributed DAGs",
+      "Progressive Results",
     ],
     Backend: [
       ".NET",
@@ -44,8 +51,20 @@
       "Microservices",
       "Architecture",
       "Distributed Systems",
+      "Rails",
+      "AOP",
     ],
-    "UI/UX": ["HTML", "CSS", "JavaScript", "TypeScript", "Svelte", "SwiftUI"],
+    "UI/UX": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Svelte",
+      "SwiftUI",
+      "TailwindCSS",
+      "daisyUI",
+      "Grafana",
+    ],
     "Automation & Infrastructure": [
       "Bash",
       "Powershell",
@@ -55,6 +74,18 @@
       "AWS",
       "CI/CD",
       "Custom IaC",
+      "ML-assisted Tooling",
+    ],
+    "Data Science": [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "SciPy",
+      "Scikit-Learn",
+      "GeoPandas",
+      "Shapely",
+      "Statsmodels",
+      "XGBoost",
     ],
   };
 </script>
