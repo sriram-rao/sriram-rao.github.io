@@ -1,0 +1,31 @@
+flowchart LR
+    subgraph User_Interface["Module: User Interface (Local)"]
+        CLI["CLI / Scripts"]
+    end
+
+    subgraph Orchestrator["Module: Orchestrator (Local)"]
+        Context["Context Engine"]
+        DocGen["Document Builder"]
+    end
+
+    subgraph Data_Assets["Module: Local Knowledge"]
+        Profile["Profile Data"]
+        Templates["Template Library"]
+    end
+
+    subgraph External_Services["Module: External Services (Internet)"]
+        JobSite["Job Listing Platform"]
+        LLMAPI["LLM Service"]
+    end
+
+    subgraph Output_Module["Module: Output (Local)"]
+        Storage["Generated PDFs"]
+    end
+
+    CLI --> Context
+    JobSite --> Context
+    Profile --> Context
+    Context --> LLMAPI
+    LLMAPI --> DocGen
+    Templates --> DocGen
+    DocGen --> Storage

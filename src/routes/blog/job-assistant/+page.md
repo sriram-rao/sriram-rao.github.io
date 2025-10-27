@@ -1,5 +1,9 @@
 # Code/Job Assistant: Vibe-Coding My Own Recruiter
 
+<script lang="ts">
+  import SystemOverview from "$lib/SystemOverview.svelte";
+</script>
+
 My first vibe-coded project was born out of the pure frustration of getting help from "AI assistants" that seem allergic to doing what I ask. I wanted a teammate that could move fast on job search busywork without arguing with me about style or hallucinating new bullet points. So I built one.
 
 ### The pitch that lit the fuse
@@ -43,3 +47,7 @@ I'm experimenting with:
 - Building a lightweight UI in Svelte (because of course I am) so I can drag-and-drop artifacts instead of juggling CLI flags.
 
 For now, the assistant has made the job search feel less like paperwork and more like iterating on a personal product. The recruiters can keep their secret sauce; I'll keep shipping vibe-coded tools that move at my speed.
+
+<div class="my-10">
+  <SystemOverview />
+</div>

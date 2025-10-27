@@ -1,3 +1,7 @@
+<script lang="ts">
+  import SystemOverview from "$lib/SystemOverview.svelte";
+</script>
+
 <div class="max-w-6xl mx-auto px-4 py-10">
   <p class="text-base color-prominent">Selected Projects</p>
 
@@ -102,11 +106,7 @@
         rel="noopener noreferrer"
       >
         <figure class="h-40 overflow-hidden bg-white/60">
-          <img
-            src="job_assistant_architecture.svg"
-            class="w-full h-full object-contain"
-            alt="Code/Job Assistant workflow diagram"
-          />
+          <SystemOverview />
         </figure>
       </a>
       <div class="card-body">
