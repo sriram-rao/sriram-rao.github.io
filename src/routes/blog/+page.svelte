@@ -7,7 +7,7 @@
         <h2 class="text-xl font-semibold mb-2 group-hover:underline">
           Code/Job Assistant: Vibe-Coding My Own Recruiter
         </h2>
-        <p class="text-sm text-base-content/60 mb-3">November 2024</p>
+        <p class="text-sm text-base-content/60 mb-3">November 2025</p>
         <p class="text-base-content/80">
           The personal tooling I built to fast-track resume tailoring, ATS formatting, and LinkedIn updates using LLMs—after recruiters promised to make my profile "hot" and never explained how.
         </p>
@@ -19,7 +19,7 @@
         <h2 class="text-xl font-semibold mb-2 group-hover:underline">
           Building a Diary Card App: Architecture Choices and Regrets
         </h2>
-        <p class="text-sm text-base-content/60 mb-3">October 2024</p>
+        <p class="text-sm text-base-content/60 mb-3">October 2025</p>
         <p class="text-base-content/80">
           The technical decisions, architectural patterns, and mistakes behind my mood journal app. SwiftData, string-based schemas, and why glass effects are underused.
         </p>
@@ -31,7 +31,7 @@
         <h2 class="text-xl font-semibold mb-2 group-hover:underline">
           Mood Journal or: How I Learnt to Stop Worrying and Build an App
         </h2>
-        <p class="text-sm text-base-content/60 mb-3">August 2024</p>
+        <p class="text-sm text-base-content/60 mb-3">August 2025</p>
         <p class="text-base-content/80">
           Why I went from Excel spreadsheets to Notion to building my own native iOS app for tracking my daily mood. Spoiler: boredom played a big role.
         </p>

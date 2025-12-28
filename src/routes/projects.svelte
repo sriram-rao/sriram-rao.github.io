@@ -6,7 +6,7 @@
   <p class="text-base color-prominent">Selected Projects</p>
 
   <div
-    class="mt-6 grid gap-6 sm:grid-cols-2 xl:grid-cols-3"
+    class="mt-6 grid gap-6 md:grid-cols-2 xl:grid-cols-3"
     style="grid-auto-rows: 1fr;"
   >
     <div class="card bg-base-100 shadow-md dark:shadow-neutral">
@@ -114,8 +114,7 @@
           class="link link-neutral color-prominent"
           href="https://github.com/sriram-rao/job-assistant"
           target="_blank"
-          rel="noopener noreferrer"
-          >Code/Job Assistant</a
+          rel="noopener noreferrer">Code/Job Assistant</a
         >
         <p class="text-sm color-content">
           CLI tooling that rewrites resumes, cover letters, and LinkedIn copy
