@@ -90,30 +90,34 @@
   };
 </script>
 
-<div class="flex items-center m-8">
-  <div class="box-border">
-    <span class="text-base prose color-prominent">Skills </span>
+<div class="max-w-6xl mx-auto px-4 py-10">
+  <p class="text-base color-prominent">Skills</p>
 
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-5 -mx-4 w-[calc(100%+6rem)]"
-    >
-      {#each Object.entries(skills) as [skill, languages]}
-        <div class="card shadow-md dark:shadow-neutral">
-          <div class="card-body">
-            <span class="text-sm text-center color-prominent">
-              {skill}
-            </span>
-            <span class="flex flex-wrap gap-1 justify-center">
-              {#each languages as language}
-                <span
-                  class="badge badge-ghost dark:bg-[#2f3640] text-base-content"
-                  >{language}</span
-                >
-              {/each}
-            </span>
+  <div class="mt-6 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+    {#each Object.entries(skills) as [skill, languages]}
+      <div class="card bg-base-100 shadow-md dark:shadow-neutral overflow-hidden">
+        <div class="bg-base-200 dark:bg-[#2f3640] px-4 py-3">
+          <h3 class="text-sm font-medium color-prominent">
+            {skill}
+          </h3>
+        </div>
+        <div class="p-4">
+          <div class="flex flex-wrap gap-2">
+            {#each (() => {
+              const sorted = [...languages].sort((a, b) => a.length - b.length);
+              const groups = [[], [], []];
+              sorted.forEach((item, i) => {
+                groups[i % 3].push(item);
+              });
+              return [...groups[0], ...groups[1], ...groups[2]];
+            })() as language}
+              <span class="badge badge-ghost dark:bg-[#2f3640] text-base-content">
+                {language}
+              </span>
+            {/each}
           </div>
         </div>
-      {/each}
-    </div>
+      </div>
+    {/each}
   </div>
 </div>
